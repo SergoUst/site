@@ -1,0 +1,379 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.body{
+    background-image: url("./../image/fon-2.jpg");
+    color: white
+}
+
+.h2
+{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+.index_h
+{
+    text-align: center;
+    font-family: "Oswald", sans-serif; 
+    font-size: 32px;
+    color: white;
+}
+
+.index_p
+{
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif; 
+    font-size: 28px;
+}
+
+.list_i
+{
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 28px;
+}
+
+.index_h_fancy
+{
+    text-align: center;
+    font-family: "Oswald", sans-serif; 
+    font-size: 32px;
+    color: white;
+}
+
+.ul li
+{
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif; 
+    font-size: 28px;
+}
+
+.school
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 45px;
+}
+
+.nav
+{
+    background: white;
+    height: 70px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.nav_li
+{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 5px;
+    color: white;
+}
+
+.nav_li_a
+{
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif; 
+    font-size: 28px;
+    text-decoration: none;
+    padding: 7px 7px;
+    border-radius: 3px;
+}
+
+.nav_li_a_active
+{
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif; 
+    font-size: 28px;
+    padding: 7px 7px;
+    border-radius: 3px;
+}
+
+.nav_ul
+{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.a.active, a:hover
+{
+    background: gray;
+    transition: 0.5s;
+    }
+
+.check_btn
+{
+    vertical-align: middle;
+    font-size: 30px;
+    float: right;
+    line-height: 70px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+@media not screen and (min-width:1024px)
+{
+}
+
+.table_c
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 45px;
+}
+
+.index_h2
+{
+    text-align: center;
+    font-family: "Oswald", sans-serif; 
+    font-size: 48px;
+    color: white;
+}
+@media (max-width: 1710px)
+{
+    .photo-2, .photo-4
+    {
+        width: 600px;
+        height: 1100px;
+    }
+    .photo-3
+    {
+        width: 700px;
+        height: 600px;
+    }
+    .photo-5, .photo-6, .photo-7, .photo-8
+    {
+        width: 1070px;
+        height: 600px;
+    }
+}
+@media (max-width: 1450px)
+{
+    .photo-2, .photo-4
+    {
+        width: 500px;
+        height: 900px;
+    }
+    .photo-3
+    {
+        width: 500px;
+        height: 400px;
+    }
+    .photo-5, .photo-6, .photo-7, .photo-8
+    {
+        width: 870px;
+        height: 500px;
+    }
+}
+@media (max-width: 1190px)
+{
+    .photo-1, .photo-2, .photo-4
+    {
+        width: 400px;
+        height: 700px;
+    }
+    .photo-5, .photo-6, .photo-7, .photo-8
+    {
+        width: 670px;
+        height: 400px;
+    }
+}
+@media (max-width: 920px)
+{
+    .photo-2, .photo-4
+    {
+        width: 450px;
+        height: 700px;
+    }
+    .photo-3
+    {
+        width: 450px;
+        height: 350px;
+    }
+    .photo-5, .photo-6, .photo-7, .photo-8
+    {
+        width: 470px;
+        height: 300px;
+    }
+    .index-p
+    {
+        font-size: 15px;
+    }
+}
+@media (max-width: 840px)
+{
+    .nav_ul
+    {
+        margin-right: 30px;
+    }
+}
+@media (max-width: 520px)
+{
+    .nav_ul
+    {
+        margin-right: 40px;
+    }
+    .table_c
+    {
+        margin-left: -5px;
+    }
+    .index_h_fancy
+    {
+        margin-right: -10px;
+    }
+    .photo-2, .photo-4
+    {
+        width: 350px;
+        height: 500px;
+    }
+    .photo-3
+    {
+        width: 300px;
+        height: 250px;
+    }
+    .photo-5, .photo-6, .photo-7, .photo-8
+    {
+        width: 420px;
+        height: 270px;
+    }
+    .index-p
+    {
+        font-size: 10px;
+    }
+    .index_h_fancy
+    {
+        font-size: 3px;
+    }
+}
+
+@media (max-width: 431px)
+{
+    .nav_ul
+    {
+        margin-right: 40px;
+    }
+    .table_c
+    {
+        margin-left: -5px;
+    }
+    .index_h_fancy
+    {
+        margin-right: -10px;
+    }
+    .photo-2, .photo-4
+    {
+        width: 300px;
+        height: 450px;
+    }
+    .photo-3
+    {
+        width: 300px;
+        height: 250px;
+    } 
+    .photo-5, .photo-6, .photo-7, .photo-8
+    {
+        width: 350px;
+        height: 220px;
+    }
+} 
+
+
+@media (max-width: 350px)
+{
+    .nav_ul
+    {
+        margin-right: 10px;
+    }
+    .index_h_fancy
+    {
+        margin-right: -35px;
+    }
+    .index-p
+    {
+        margin-left: 30px;
+    }
+}
+@media (max-width: 300px)
+{
+    .nav_ul
+    {
+        margin-right: -20px;
+    }
+    .index_h_fancy
+    {
+        margin-right: -60px;
+    }
+    .photo-2, .photo-4
+    {
+        width: 270px;
+        height: 440px;
+    }
+    .photo-3
+    {
+        width: 270px;
+        height: 220px;
+    } 
+    .photo-5, .photo-6, .photo-7, .photo-8
+    {
+        width: 300px;
+        height: 200px;
+    }
+    .table_c
+    {
+        margin-left: 5px;
+    }
+}
+
+
+@media not screen and (min-width:1024px)
+{
+    [class*="index_h"]
+    {
+        text-align: center;
+        font-family: "Oswald", sans-serif;
+        font-size: 42px;
+        color: white;
+    }
+
+    [class*="index_p"]
+    {
+        color: white;
+        text-align: center;
+        font-family: "Oswald", sans-serif;
+        font-size: 32px;
+    }
+
+    [class*="index_h_fancy"]
+    {
+        text-align: center;
+        font-family: "Oswald", sans-serif;
+        font-size: 42px;
+    }
+    /* [class*="nav_ul"]
+    {
+        text-align: center;
+        font-family: "Oswald", sans-serif;
+        padding-top: 15px;
+    }
+    [class="table_c"]
+    {
+        color: white;
+        text-align: center;
+        font-family: "Oswald", sans-serif;
+        font-size: 32px;
+        
+    } */
+}
